@@ -162,7 +162,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 		/>
 	<partition
 		label="rootfs"
-		size_in_kb="131072"
+		size_in_kb="2228224"
 		type="98D2248D-7140-449F-A954-39D67BD6C3B4"
 		bootable="false"
 		readonly="false"
@@ -171,14 +171,6 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 		filename_32="openwrt-ipq-ipq60xx-squashfs-root.img"
 		filename_64="openwrt-ipq-ipq60xx_64-squashfs-root.img"
 		/>
-	<partition
-		label="rootfs_data"
-		size_in_kb="2097152"
-		type="AB1760DA-A8BB-4D6F-98D2-9AD3AB9009CD"
-		bootable="false"
-		readonly="false"
-		filename=""
-		/>"
 	<partition
 		label="swap"
 		size_in_kb="524288"
@@ -226,23 +218,15 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 		/>
 	<partition
 		label="rootfs"
-		size_in_kb="131072"
+		size_in_kb="2228224"
 		type="98D2248D-7140-449F-A954-39D67BD6C3B4"
 		bootable="false"
 		readonly="false"
-		diff_files="true"
+		diff_files = "true"
 		image_type = "hlos"
 		filename_32="openwrt-ipq-ipq60xx-squashfs-root.img"
 		filename_64="openwrt-ipq-ipq60xx_64-squashfs-root.img"
 		/>
-	<partition
-		label="rootfs_data"
-		size_in_kb="2097152"
-		type="AB1760DA-A8BB-4D6F-98D2-9AD3AB9009CD"
-		bootable="false"
-		readonly="false"
-		filename=""
-		/>"
 	</physical_partition>
 
 </configuration>
