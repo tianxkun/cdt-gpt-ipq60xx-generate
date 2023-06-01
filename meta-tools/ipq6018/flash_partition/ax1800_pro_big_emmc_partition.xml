@@ -25,14 +25,14 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:SBL1"
 		size_in_kb="768"
-		type="76956397-A5CA-ABCF-CFFF-49DA1C1C1BE8"
+		type="DEA0BA2C-CBDD-4805-B4F9-F428251C3E98"
 		bootable="false" readonly="false"
 		filename="xbl.elf"
 		/>
 	<partition
 		label="0:BOOTCONFIG"
 		size_in_kb="256"
-		type="7BA9C6DE-CA09-2821-690A-64095242D2A0"
+		type="2B7D04FF-31F0-4E6A-BE9A-DA50314DAD58"
 		bootable="false"
 		readonly="false"
 		filename="bootconfig.bin"
@@ -40,7 +40,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:BOOTCONFIG1"
 		size_in_kb="256"
-		type="1A1ED8DB-F385-E8E6-9C74-E18D77BD489B"
+		type="7BD25378-5C39-11E5-8A77-40A8F05F1418"
 		bootable="false"
 		readonly="false"
 		filename="bootconfig.bin"
@@ -48,7 +48,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:QSEE"
 		size_in_kb="1792"
-		type="60F4EDA8-3AAD-0876-E16A-85254A9FD2A0"
+		type="A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4"
 		bootable="false"
 		readonly="false"
 		filename="tz.mbn"
@@ -56,7 +56,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:QSEE_1"
 		size_in_kb="1792"
-		type="0CBB89B7-6322-4F98-2A36-C86B2161E82D"
+		type="A6DD74A1-C8BF-4DBC-AE39-62B8E78C4038"
 		bootable="false"
 		readonly="false"
 		filename=""
@@ -64,7 +64,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:DEVCFG"
 		size_in_kb="256"
-		type="3871EEB7-FFD8-DA0B-C61A-3B98B877A59E"
+		type="F65D4B16-343D-4E25-AAFC-BE99B6556A6D"
 		bootable="false"
 		readonly="false"
 		filename="devcfg.mbn"
@@ -72,7 +72,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:DEVCFG_1"
 		size_in_kb="256"
-		type="4D84D3C2-4B7E-026A-3859-9399E060FD5B"
+		type="48BFA451-9443-46F7-B400-892A6B1BFC16"
 		bootable="false"
 		readonly="false"
 		filename=""
@@ -80,7 +80,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:RPM"
 		size_in_kb="256"
-		type="AD59F4D5-EF22-0F8F-08EB-E52BE4D4FD62"
+		type="098DF793-D712-413D-9D4E-89D711772228"
 		bootable="false"
 		readonly="false"
 		filename="rpm.mbn"
@@ -88,7 +88,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:RPM_1"
 		size_in_kb="256"
-		type="0315721B-068C-C728-8F13-B5154FE16902"
+		type="2D2BE762-890B-11E5-AAF3-40A8F05F1418"
 		bootable="false"
 		readonly="false"
 		filename=""
@@ -96,7 +96,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:CDT"
 		size_in_kb="256"
-		type="55D84BA7-7AFE-068E-F02B-2B67DD330510"
+		type="A19F205F-CCD8-4B6D-8F1E-2D9BC24CFFB1"
 		bootable="false"
 		readonly="false"
 		filename="cdt.bin"
@@ -104,7 +104,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:CDT_1"
 		size_in_kb="256"
-		type="8D32C906-B4E5-28BC-3050-5BE0A3401B36"
+		type="7A795379-C250-4282-A2C7-FC4E13F4A43D"
 		bootable="false"
 		readonly="false"
 		filename=""
@@ -112,7 +112,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:APPSBLENV"
 		size_in_kb="256"
-		type="A65238ED-379F-52E9-F01A-0E45A12D9DA4"
+		type="300FFDCD-22E0-47E7-9A23-F16ED9382387"
 		bootable="false"
 		readonly="false"
 		filename=""
@@ -120,7 +120,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:APPSBL"
 		size_in_kb="640"
-		type="88236518-8902-2ECF-6BFB-A33684F1FEA0"
+		type="400FFDCD-22E0-47E7-9A23-F16ED9382388"
 		bootable="false"
 		readonly="false"
 		filename="openwrt-ipq6018-u-boot.mbn"
@@ -128,7 +128,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:APPSBL_1"
 		size_in_kb="640"
-		type="37A1760E-FEA6-1E41-3446-9F4B78492B4C"
+		type="C126787D-3EEF-444C-9E43-FEFF3F103E22"
 		bootable="false"
 		readonly="false"
 		filename=""
@@ -136,7 +136,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:ART"
 		size_in_kb="256"
-		type="E0AB46B9-B259-2644-58D6-5EDD6F28E130"
+		type="A72E50C1-D37C-429D-9620-35FCA612B9A8"
 		bootable="false"
 		readonly="false"
 		filename=""
@@ -144,7 +144,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:HLOS"
 		size_in_kb="6144"
-		type="8A64C084-9D78-BC87-1438-CBEB2DD343EE"
+		type="B51F2982-3EBE-46DE-8721-EE641E1F9997"
 		bootable="false"
 		readonly="false"
 		diff_files = "true"
@@ -155,7 +155,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:HLOS_1"
 		size_in_kb="6144"
-		type="486078F8-BAEC-2466-2DC0-4E4D197F4440"
+		type="A71DA577-7F81-4626-B4A2-E377F9174525"
 		bootable="false"
 		readonly="false"
 		filename=""
@@ -163,7 +163,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="rootfs"
 		size_in_kb="131072"
-		type="39677E50-19F8-F4E2-71C0-8998C27E4B12"
+		type="98D2248D-7140-449F-A954-39D67BD6C3B4"
 		bootable="false"
 		readonly="false"
 		diff_files = "true"
@@ -174,7 +174,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="rootfs_data"
 		size_in_kb="2097152"
-		type="A3C6191B-5E4B-9895-6289-886424D7A8CA"
+		type="AB1760DA-A8BB-4D6F-98D2-9AD3AB9009CD"
 		bootable="false"
 		readonly="false"
 		filename=""
@@ -182,7 +182,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="swap"
 		size_in_kb="524288"
-		type="DA210AAB-3FDF-2640-F432-4C604371906B"
+		type="3B19202A-A8DB-4B6F-92D2-0A03AB9609C3"
 		bootable="false"
 		readonly="false"
 		filename=""
@@ -192,7 +192,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="storage"
 		size_in_kb="57118686.5"
-		type="CEB8ABFC-7258-FE04-17AE-6E699579E38F"
+		type="1B1720DA-A8BB-4B6F-92D2-0A93AB9609CA"
 		bootable="false"
 		readonly="false"
 		filename=""
@@ -208,7 +208,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:HLOS"
 		size_in_kb="6144"
-		type="8A64C084-9D78-BC87-1438-CBEB2DD343EE"
+		type="B51F2982-3EBE-46DE-8721-EE641E1F9997"
 		bootable="false"
 		readonly="false"
 		diff_files = "true"
@@ -219,7 +219,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="0:HLOS_1"
 		size_in_kb="6144"
-		type="486078F8-BAEC-2466-2DC0-4E4D197F4440"
+		type="A71DA577-7F81-4626-B4A2-E377F9174525"
 		bootable="false"
 		readonly="false"
 		filename=""
@@ -227,10 +227,10 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="rootfs"
 		size_in_kb="131072"
-		type="39677E50-19F8-F4E2-71C0-8998C27E4B12"
+		type="98D2248D-7140-449F-A954-39D67BD6C3B4"
 		bootable="false"
 		readonly="false"
-		diff_files = "true"
+		diff_files="true"
 		image_type = "hlos"
 		filename_32="openwrt-ipq-ipq60xx-squashfs-root.img"
 		filename_64="openwrt-ipq-ipq60xx_64-squashfs-root.img"
@@ -238,7 +238,7 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	<partition
 		label="rootfs_data"
 		size_in_kb="2097152"
-		type="A3C6191B-5E4B-9895-6289-886424D7A8CA"
+		type="AB1760DA-A8BB-4D6F-98D2-9AD3AB9009CD"
 		bootable="false"
 		readonly="false"
 		filename=""
@@ -246,4 +246,3 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 	</physical_partition>
 
 </configuration>
-
