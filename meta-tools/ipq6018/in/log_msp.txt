@@ -1,0 +1,284 @@
+20:03:47 
+msp.py is running from CWD: F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in
+
+20:03:47 
+Search Paths
+20:03:47 []
+20:03:47 
+Files
+20:03:47 []
+20:03:47 
+
+	Looking for 'F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in\patch0.xml'
+20:03:47 	----------------------------------------
+20:03:47 	Searching 'F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in'
+20:03:47 
+	**Found F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in\patch0.xml (5263 bytes)
+20:03:47 	             _        _     _             
+20:03:47 	            | |      | |   (_)            
+20:03:47 	 _ __   __ _| |_  ___| |__  _ _ __   __ _ 
+20:03:47 	| '_ \ / _` | __|/ __| '_ \| | '_ \ / _` |
+20:03:47 	| |_) | (_| | |_| (__| | | | | | | | (_| |
+20:03:47 	| .__/ \__,_|\__|\___|_| |_|_|_| |_|\__, |
+20:03:47 	| |                                  __/ |
+20:03:47 	|_|                                 |___/ 
+20:03:47 
+------------------------------------------------------------------------------
+20:03:47 PATCH: (gpt_main0.bin) Update Primary Header with LastUseableLBA.
+20:03:47 
+
+	Looking for 'gpt_main0.bin'
+20:03:47 	----------------------------------------
+20:03:47 	Searching 'F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in'
+20:03:47 
+	**Found gpt_main0.bin (17408 bytes)
+20:03:47 Opened gpt_main0.bin, cwd=F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in
+20:03:47 moving to sector 1 (byte location 512)
+20:03:47 success was able to read len(bytes_read)=512
+20:03:47 At sector 1 (0x200) file_sector_offset 48 (0x30) in gpt_main0.bin with 119783390 (0x723BFDE)
+20:03:47 Patch value:119783390
+20:03:47 (little endian)
+20:03:47 committing patch of length 512 bytes
+20:03:47 CLOSED 'gpt_main0.bin'
+20:03:47 PATCH:
+20:03:47 DONE
+
+20:03:47 
+------------------------------------------------------------------------------
+20:03:47 PATCH: (gpt_backup0.bin) Update Backup Header with LastUseableLBA.
+20:03:47 
+
+	Looking for 'gpt_backup0.bin'
+20:03:47 	----------------------------------------
+20:03:47 	Searching 'F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in'
+20:03:47 
+	**Found gpt_backup0.bin (16896 bytes)
+20:03:47 Opened gpt_backup0.bin, cwd=F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in
+20:03:47 moving to sector 32 (byte location 16384)
+20:03:47 success was able to read len(bytes_read)=512
+20:03:47 At sector 32 (0x4000) file_sector_offset 48 (0x30) in gpt_backup0.bin with 119783390 (0x723BFDE)
+20:03:47 Patch value:119783390
+20:03:47 (little endian)
+20:03:47 committing patch of length 512 bytes
+20:03:47 CLOSED 'gpt_backup0.bin'
+20:03:47 PATCH:
+20:03:47 DONE
+
+20:03:47 
+------------------------------------------------------------------------------
+20:03:47 PATCH: (gpt_main0.bin) Update Primary Header with BackupGPT Header Location.
+20:03:47 
+
+	Looking for 'gpt_main0.bin'
+20:03:47 	----------------------------------------
+20:03:47 	Searching 'F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in'
+20:03:47 
+	**Found gpt_main0.bin (17408 bytes)
+20:03:47 Opened gpt_main0.bin, cwd=F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in
+20:03:47 moving to sector 1 (byte location 512)
+20:03:47 success was able to read len(bytes_read)=512
+20:03:47 At sector 1 (0x200) file_sector_offset 32 (0x20) in gpt_main0.bin with 119783423 (0x723BFFF)
+20:03:47 Patch value:119783423
+20:03:47 (little endian)
+20:03:47 committing patch of length 512 bytes
+20:03:47 CLOSED 'gpt_main0.bin'
+20:03:47 PATCH:
+20:03:47 DONE
+
+20:03:47 
+------------------------------------------------------------------------------
+20:03:47 PATCH: (gpt_backup0.bin) Update Backup Header with CurrentLBA.
+20:03:47 
+
+	Looking for 'gpt_backup0.bin'
+20:03:47 	----------------------------------------
+20:03:47 	Searching 'F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in'
+20:03:47 
+	**Found gpt_backup0.bin (16896 bytes)
+20:03:47 Opened gpt_backup0.bin, cwd=F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in
+20:03:47 moving to sector 32 (byte location 16384)
+20:03:47 success was able to read len(bytes_read)=512
+20:03:47 At sector 32 (0x4000) file_sector_offset 24 (0x18) in gpt_backup0.bin with 119783423 (0x723BFFF)
+20:03:47 Patch value:119783423
+20:03:47 (little endian)
+20:03:47 committing patch of length 512 bytes
+20:03:47 CLOSED 'gpt_backup0.bin'
+20:03:47 PATCH:
+20:03:47 DONE
+
+20:03:47 
+------------------------------------------------------------------------------
+20:03:47 PATCH: (gpt_backup0.bin) Update Backup Header with Partition Array Location.
+20:03:47 
+
+	Looking for 'gpt_backup0.bin'
+20:03:47 	----------------------------------------
+20:03:47 	Searching 'F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in'
+20:03:47 
+	**Found gpt_backup0.bin (16896 bytes)
+20:03:47 Opened gpt_backup0.bin, cwd=F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in
+20:03:47 moving to sector 32 (byte location 16384)
+20:03:47 success was able to read len(bytes_read)=512
+20:03:47 At sector 32 (0x4000) file_sector_offset 72 (0x48) in gpt_backup0.bin with 119783391 (0x723BFDF)
+20:03:47 Patch value:119783391
+20:03:47 (little endian)
+20:03:47 committing patch of length 512 bytes
+20:03:47 CLOSED 'gpt_backup0.bin'
+20:03:47 PATCH:
+20:03:47 DONE
+
+20:03:47 
+------------------------------------------------------------------------------
+20:03:47 PATCH: (gpt_main0.bin) Update Primary Header with CRC of Partition Array.
+20:03:47 
+
+	Looking for 'gpt_main0.bin'
+20:03:47 	----------------------------------------
+20:03:47 	Searching 'F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in'
+20:03:47 
+	**Found gpt_main0.bin (17408 bytes)
+20:03:47 Opened gpt_main0.bin, cwd=F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in
+20:03:47 	CRC32(2,3584) requested 
+20:03:47 moving to sector 2 (byte location 1024)
+20:03:47 	Move Successful 
+20:03:47 	Trying to read 3584 bytes in gpt_main0.bin
+20:03:47 	len(bytes_read)=
+20:03:47 	CRC32=0x558E1055
+20:03:47 moving to sector 1 (byte location 512)
+20:03:47 success was able to read len(bytes_read)=512
+20:03:47 At sector 1 (0x200) file_sector_offset 88 (0x58) in gpt_main0.bin with 1435373653 (0x558E1055)
+20:03:47 Patch value:1435373653
+20:03:47 (little endian)
+20:03:47 committing patch of length 512 bytes
+20:03:47 CLOSED 'gpt_main0.bin'
+20:03:47 PATCH:
+20:03:47 DONE
+
+20:03:47 
+------------------------------------------------------------------------------
+20:03:47 PATCH: (gpt_backup0.bin) Update Backup Header with CRC of Partition Array.
+20:03:47 
+
+	Looking for 'gpt_backup0.bin'
+20:03:47 	----------------------------------------
+20:03:47 	Searching 'F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in'
+20:03:47 
+	**Found gpt_backup0.bin (16896 bytes)
+20:03:47 Opened gpt_backup0.bin, cwd=F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in
+20:03:47 	CRC32(0,3584) requested 
+20:03:47 moving to sector 0 (byte location 0)
+20:03:47 	Move Successful 
+20:03:47 	Trying to read 3584 bytes in gpt_backup0.bin
+20:03:47 	len(bytes_read)=
+20:03:47 	CRC32=0x558E1055
+20:03:47 moving to sector 32 (byte location 16384)
+20:03:47 success was able to read len(bytes_read)=512
+20:03:47 At sector 32 (0x4000) file_sector_offset 88 (0x58) in gpt_backup0.bin with 1435373653 (0x558E1055)
+20:03:47 Patch value:1435373653
+20:03:47 (little endian)
+20:03:47 committing patch of length 512 bytes
+20:03:47 CLOSED 'gpt_backup0.bin'
+20:03:47 PATCH:
+20:03:47 DONE
+
+20:03:47 
+------------------------------------------------------------------------------
+20:03:47 PATCH: (gpt_main0.bin) Zero Out Header CRC in Primary Header.
+20:03:47 
+
+	Looking for 'gpt_main0.bin'
+20:03:47 	----------------------------------------
+20:03:47 	Searching 'F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in'
+20:03:47 
+	**Found gpt_main0.bin (17408 bytes)
+20:03:47 Opened gpt_main0.bin, cwd=F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in
+20:03:47 moving to sector 1 (byte location 512)
+20:03:47 success was able to read len(bytes_read)=512
+20:03:47 At sector 1 (0x200) file_sector_offset 16 (0x10) in gpt_main0.bin with 0 (0x0)
+20:03:47 Patch value:0
+20:03:47 (little endian)
+20:03:47 committing patch of length 512 bytes
+20:03:47 CLOSED 'gpt_main0.bin'
+20:03:47 PATCH:
+20:03:47 DONE
+
+20:03:47 
+------------------------------------------------------------------------------
+20:03:47 PATCH: (gpt_main0.bin) Update Primary Header with CRC of Primary Header.
+20:03:47 
+
+	Looking for 'gpt_main0.bin'
+20:03:47 	----------------------------------------
+20:03:47 	Searching 'F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in'
+20:03:47 
+	**Found gpt_main0.bin (17408 bytes)
+20:03:47 Opened gpt_main0.bin, cwd=F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in
+20:03:47 	CRC32(1,92) requested 
+20:03:47 moving to sector 1 (byte location 512)
+20:03:47 	Move Successful 
+20:03:47 	Trying to read 92 bytes in gpt_main0.bin
+20:03:47 	len(bytes_read)=
+20:03:47 	CRC32=0xEF6C3A72
+20:03:47 moving to sector 1 (byte location 512)
+20:03:47 success was able to read len(bytes_read)=512
+20:03:47 At sector 1 (0x200) file_sector_offset 16 (0x10) in gpt_main0.bin with 4016847474 (0xEF6C3A72)
+20:03:47 Patch value:4016847474
+20:03:47 (little endian)
+20:03:47 committing patch of length 512 bytes
+20:03:47 CLOSED 'gpt_main0.bin'
+20:03:47 PATCH:
+20:03:47 DONE
+
+20:03:47 
+------------------------------------------------------------------------------
+20:03:47 PATCH: (gpt_backup0.bin) Zero Out Header CRC in Backup Header.
+20:03:47 
+
+	Looking for 'gpt_backup0.bin'
+20:03:47 	----------------------------------------
+20:03:47 	Searching 'F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in'
+20:03:47 
+	**Found gpt_backup0.bin (16896 bytes)
+20:03:47 Opened gpt_backup0.bin, cwd=F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in
+20:03:47 moving to sector 32 (byte location 16384)
+20:03:47 success was able to read len(bytes_read)=512
+20:03:47 At sector 32 (0x4000) file_sector_offset 16 (0x10) in gpt_backup0.bin with 0 (0x0)
+20:03:47 Patch value:0
+20:03:47 (little endian)
+20:03:47 committing patch of length 512 bytes
+20:03:47 CLOSED 'gpt_backup0.bin'
+20:03:47 PATCH:
+20:03:47 DONE
+
+20:03:47 
+------------------------------------------------------------------------------
+20:03:47 PATCH: (gpt_backup0.bin) Update Backup Header with CRC of Backup Header.
+20:03:47 
+
+	Looking for 'gpt_backup0.bin'
+20:03:47 	----------------------------------------
+20:03:47 	Searching 'F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in'
+20:03:47 
+	**Found gpt_backup0.bin (16896 bytes)
+20:03:47 Opened gpt_backup0.bin, cwd=F:\shuanchu\cdt-gpt-ipq60xx-generate\meta-tools\ipq6018\in
+20:03:47 	CRC32(32,92) requested 
+20:03:47 moving to sector 32 (byte location 16384)
+20:03:47 	Move Successful 
+20:03:47 	Trying to read 92 bytes in gpt_backup0.bin
+20:03:47 	len(bytes_read)=
+20:03:47 	CRC32=0x480B8650
+20:03:47 moving to sector 32 (byte location 16384)
+20:03:47 success was able to read len(bytes_read)=512
+20:03:47 At sector 32 (0x4000) file_sector_offset 16 (0x10) in gpt_backup0.bin with 1208714832 (0x480B8650)
+20:03:47 Patch value:1208714832
+20:03:47 (little endian)
+20:03:47 committing patch of length 512 bytes
+20:03:47 CLOSED 'gpt_backup0.bin'
+20:03:47 PATCH:
+20:03:47 DONE
+
+20:03:47 Done patching
+20:03:47 
+msp.py exiting SUCCESSFULLY- Log is log_msp.txt
+
+
